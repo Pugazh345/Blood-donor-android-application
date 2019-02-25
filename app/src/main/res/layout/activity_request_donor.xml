@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pugazh.lifeblood.requestDonor">
+
+    <TextView
+        android:id="@+id/selDnrName"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="94dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/selDnrBg"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/selDnrName"
+        android:layout_below="@+id/selDnrName"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/selDnrAddr"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/selDnrBg"
+        android:layout_below="@+id/selDnrBg"
+        android:layout_marginTop="14dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/reqSelBtn"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/selDnrAddr"
+        android:layout_gravity="center"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="47dp"
+        android:background="#8a0707"
+        android:text="Send Request"
+        android:textAllCaps="true"
+        android:textColor="#ffffff" />
+</RelativeLayout>
